@@ -2700,6 +2700,22 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
+	#main_pf {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+		#main_pf > section {
+			border-top: solid 2px #efefef;
+			margin: 4em 0 0 0;
+			padding: 4em 0 0 0;
+		}
+
+			#main_pf > section:first-child {
+				border-top: 0;
+				margin-top: 0;
+				padding-top: 0;
+			}
 /* Poptrox */
 
 	@-moz-keyframes spin {
